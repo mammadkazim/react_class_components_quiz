@@ -1,0 +1,79 @@
+.QuizWrapper {
+  margin: auto;
+  padding: 20px;
+  border-radius: 14px;
+  width: 550px;
+}
+.QuizQuestion {
+  font-size: 22px;
+  font-weight: 700;
+  color: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.answersList{
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.answersItem{
+  list-style: none;
+  width: 260px;
+  height: 60px;
+  background-color: skyblue;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 58px;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.answersItem:hover{
+  background-color: rgb(20, 154, 206);
+}
+#true{
+  background-color: rgb(9, 152, 9);
+  color: aliceblue;
+}
+#false{
+  background-color: red;
+  color: aliceblue;
+}
+.finish-container{
+  margin-top: 100px;
+  width: 400px;
+  text-align: center;
+  font-size: 20px;
+  margin: 200px auto 0;
+  font-weight: 700;
+}
+.passed,.failed{
+  margin: 14px 0;
+  font-weight: 600;
+}
+.passed{
+  color: green
+}
+.failed{
+  color: darkred
+}
+.tryAgain{
+  width: 170px;
+  height: 30px;
+  border-radius: 6px;
+  border-style: none;
+  background-color: rgb(85, 132, 19);
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 600;
+}
+.tryAgain:hover{
+  background-color: rgb(69, 63, 8);
+}
+.result-container{
+  font-weight: 500;
+}
