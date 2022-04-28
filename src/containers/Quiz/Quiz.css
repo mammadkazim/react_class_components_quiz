@@ -61,7 +61,7 @@
 .failed{
   color: darkred
 }
-.tryAgain{
+.tryAgainBtn{
   width: 170px;
   height: 30px;
   border-radius: 6px;
@@ -71,7 +71,7 @@
   font-size: 16px;
   font-weight: 600;
 }
-.tryAgain:hover{
+.tryAgainBtn:hover{
   background-color: rgb(69, 63, 8);
 }
 .result-container{

@@ -1,9 +1,13 @@
 import './App.css';
 import Quiz from './containers/Quiz/Quiz'
+import Aside from './containers/Aside/Aside';
 
 function App() {
   return (
-    <Quiz/>
+    <div className='app-container' >
+      <Quiz/>
+      <Aside/>
+    </div>
   );
 }
 
